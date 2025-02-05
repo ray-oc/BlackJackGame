@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  font-family: "Montserrat", serif;
+}
+body {
+  font-family: "Montserrat", serif;
+  background-image: url("images/BlackJackImg.jpg");
+  background-size: cover;
+  font-weight: bold;
+  background-repeat: no-repeat;
+  color: whitesmoke;
+  text-shadow: 2px 4px 2px rgba(37, 37, 37, 0.773);
+  text-align: center;
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+}
+
+.main-container {
+  text-align: center;
+  display: block;
+  height: 100vh;
+  align-content: center;
+}
+
+h1 {
+  color: goldenrod;
+}
+
+#message-el {
+  font-style: italic;
+}
+
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+button {
+  color: #ffffff;
+  width: 150px;
+  background: goldenrod;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  border: none;
+  border-radius: 2px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+button:hover {
+  scale: 1.1;
+  background-color: rgb(255, 255, 255);
+  color: goldenrod;
+}
